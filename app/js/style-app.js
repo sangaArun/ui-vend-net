@@ -8,6 +8,6 @@ $(function() {
       $("#menu-toggle").click(function(e) {
             console.log('toggle');
             e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
+            $("#wrapper1").toggleClass("toggled");
         });
 });
